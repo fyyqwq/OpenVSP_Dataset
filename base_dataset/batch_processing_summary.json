@@ -1,0 +1,91 @@
+{
+  "batch_summary": {
+    "total_models": 1,
+    "processed_successfully": 1,
+    "processed_with_errors": 0,
+    "failed_completely": 0,
+    "total_processing_time": 117.80669474601746,
+    "processing_date": "2025-07-15 10:08:40"
+  },
+  "model_results": [
+    {
+      "model_name": "77",
+      "success": true,
+      "processing_time": 117.80369567871094,
+      "steps_completed": [
+        "vsp_file_saving",
+        "parameter_extraction",
+        "data_export",
+        "svg_processing",
+        "multiview_images",
+        "llm_classification",
+        "summary_generation"
+      ],
+      "steps_failed": []
+    }
+  ],
+  "configuration": {
+    "paths": {
+      "base_models_dir": "base_models",
+      "output_dir": "output",
+      "temp_dir": "temp",
+      "logs_dir": "logs"
+    },
+    "processing": {
+      "num_samples": 100,
+      "start_index": 1,
+      "max_retries": 3,
+      "timeout_seconds": 300,
+      "vsp_update_model": true,
+      "vsp_clear_model": true,
+      "image_resolution": [
+        1920,
+        1080
+      ],
+      "image_quality": 95,
+      "svg_margin": 50,
+      "mesh_min_edge_len": 0.1,
+      "mesh_max_edge_len": 0.5,
+      "mesh_max_gap": 0.05,
+      "extract_parameters": true,
+      "export_mesh": true,
+      "export_svg": true,
+      "export_images": false,
+      "run_aero_analysis": true,
+      "llm_labeling": false
+    },
+    "aero": {
+      "enable_vspaero": true,
+      "mach_start": 0.3,
+      "mach_end": 0.7,
+      "mach_npts": 3,
+      "alpha_start": 0.0,
+      "alpha_end": 6.0,
+      "alpha_npts": 3,
+      "beta_start": 0.0,
+      "beta_end": 0.0,
+      "beta_npts": 1,
+      "reynolds_number": 10000000.0,
+      "wake_num_iter": 5,
+      "num_wake_nodes": 64,
+      "ncpu": 8
+    },
+    "llm": {
+      "model_name": "claude-opus-4-20250514-thinking",
+      "api_key": "sk-ikIOoZZUr5hUUGd9nATeq88r552GiCMpvBdjLAgDZPJypM61",
+      "base_url": "http://35.220.164.252:3888/v1/",
+      "max_tokens": 1000,
+      "temperature": 0.1,
+      "max_retries": 3,
+      "timeout_seconds": 60
+    },
+    "logging": {
+      "level": "INFO",
+      "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+      "file_handler": true,
+      "console_handler": true,
+      "max_file_size": 10485760,
+      "backup_count": 5
+    }
+  }
+}

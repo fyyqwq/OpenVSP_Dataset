@@ -1,0 +1,1531 @@
+{
+  "ModelName": "000077",
+  "Geoms": [
+    {
+      "Name": "MainWing",
+      "Type": "Wing",
+      "Params": [
+        {
+          "GroupName": "Shape",
+          "Name": "Tess_U",
+          "Default": 11.0,
+          "Range": [
+            2.0,
+            1000.0
+          ]
+        },
+        {
+          "GroupName": "Shape",
+          "Name": "Tess_W",
+          "Default": 25.0,
+          "Range": [
+            2.0,
+            1001.0
+          ]
+        },
+        {
+          "GroupName": "WingGeom",
+          "Name": "TotalArea",
+          "Default": 41.379733719680004,
+          "Range": [
+            1e-10,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "WingGeom",
+          "Name": "TotalSpan",
+          "Default": 15.9144,
+          "Range": [
+            1e-06,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "X_Rel_Location",
+          "Default": 3.824,
+          "Range": [
+            -1000000000000.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "X_Rel_Rotation",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Y_Rel_Location",
+          "Default": 0.0,
+          "Range": [
+            -1000000000000.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Y_Rel_Rotation",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Z_Rel_Location",
+          "Default": 0.0,
+          "Range": [
+            -1000000000000.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Z_Rel_Rotation",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Area",
+          "Default": 9.315333333333333,
+          "Range": [
+            1e-10,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Dihedral",
+          "Default": 0.0,
+          "Range": [
+            -360.0,
+            360.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Root_Chord",
+          "Default": 6.299333333333333,
+          "Range": [
+            0.0,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Span",
+          "Default": 2.0,
+          "Range": [
+            1e-10,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Sweep",
+          "Default": 50.714116,
+          "Range": [
+            -89.0,
+            89.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Tip_Chord",
+          "Default": 3.016,
+          "Range": [
+            0.0,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Twist",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_1",
+          "Name": "Area",
+          "Default": 0.6175049176893955,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_1",
+          "Name": "Chord",
+          "Default": 3.016,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_1",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Area",
+          "Default": 7.942840400000001,
+          "Range": [
+            1e-10,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Dihedral",
+          "Default": 0.0,
+          "Range": [
+            -360.0,
+            360.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Root_Chord",
+          "Default": 3.016,
+          "Range": [
+            0.0,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Span",
+          "Default": 3.2772,
+          "Range": [
+            1e-10,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Sweep",
+          "Default": 27.619024,
+          "Range": [
+            -89.0,
+            89.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Tip_Chord",
+          "Default": 1.8313333333333335,
+          "Range": [
+            0.0,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Twist",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_2",
+          "Name": "Area",
+          "Default": 0.18213882850870514,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_2",
+          "Name": "Chord",
+          "Default": 1.8313333333333335,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_2",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_3",
+          "Name": "Area",
+          "Default": 2.9931396241066666,
+          "Range": [
+            1e-10,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_3",
+          "Name": "Dihedral",
+          "Default": 0.0,
+          "Range": [
+            -360.0,
+            360.0
+          ]
+        },
+        {
+          "GroupName": "XSec_3",
+          "Name": "Root_Chord",
+          "Default": 1.8313333333333333,
+          "Range": [
+            0.0,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_3",
+          "Name": "Span",
+          "Default": 2.08,
+          "Range": [
+            1e-10,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_3",
+          "Name": "Sweep",
+          "Default": 29.523705,
+          "Range": [
+            -89.0,
+            89.0
+          ]
+        },
+        {
+          "GroupName": "XSec_3",
+          "Name": "Tip_Chord",
+          "Default": 1.0466855360000002,
+          "Range": [
+            0.0,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_3",
+          "Name": "Twist",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_3",
+          "Name": "Area",
+          "Default": 0.059497700843620036,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_3",
+          "Name": "Chord",
+          "Default": 1.0466855360000002,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_3",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_4",
+          "Name": "Area",
+          "Default": 0.4385535024000001,
+          "Range": [
+            1e-10,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_4",
+          "Name": "Dihedral",
+          "Default": 70.0,
+          "Range": [
+            -360.0,
+            360.0
+          ]
+        },
+        {
+          "GroupName": "XSec_4",
+          "Name": "Root_Chord",
+          "Default": 1.0466855360000002,
+          "Range": [
+            0.0,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_4",
+          "Name": "Span",
+          "Default": 0.6,
+          "Range": [
+            1e-10,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_4",
+          "Name": "Sweep",
+          "Default": 50.0,
+          "Range": [
+            -89.0,
+            89.0
+          ]
+        },
+        {
+          "GroupName": "XSec_4",
+          "Name": "Tip_Chord",
+          "Default": 0.41515947200000003,
+          "Range": [
+            0.0,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_4",
+          "Name": "Twist",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_4",
+          "Name": "Area",
+          "Default": 0.00936046966318993,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_4",
+          "Name": "Chord",
+          "Default": 0.41515947200000003,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_4",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Fuselage",
+      "Type": "Fuselage",
+      "Params": [
+        {
+          "GroupName": "Design",
+          "Name": "Length",
+          "Default": 14.819999999999999,
+          "Range": [
+            1e-08,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "Shape",
+          "Name": "Tess_U",
+          "Default": 11.0,
+          "Range": [
+            2.0,
+            1000.0
+          ]
+        },
+        {
+          "GroupName": "Shape",
+          "Name": "Tess_W",
+          "Default": 17.0,
+          "Range": [
+            2.0,
+            1001.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "X_Rel_Location",
+          "Default": 0.0,
+          "Range": [
+            -1000000000000.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "X_Rel_Rotation",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Y_Rel_Location",
+          "Default": 0.0,
+          "Range": [
+            -1000000000000.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Y_Rel_Rotation",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Z_Rel_Location",
+          "Default": 0.0,
+          "Range": [
+            -1000000000000.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Z_Rel_Rotation",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_0",
+          "Name": "XLocPercent",
+          "Default": 0.0
+        },
+        {
+          "GroupName": "XSec_0",
+          "Name": "XRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_0",
+          "Name": "YLocPercent",
+          "Default": 0.0,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_0",
+          "Name": "YRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_0",
+          "Name": "ZLocPercent",
+          "Default": 0.0011820350877192983,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_0",
+          "Name": "ZRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_0",
+          "Name": "Area",
+          "Default": 0.0,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_0",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "XLocPercent",
+          "Default": 0.229815,
+          "Range": [
+            0.0,
+            0.375
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "XRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "YLocPercent",
+          "Default": 0.0,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "YRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "ZLocPercent",
+          "Default": 0.003938343859649123,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "ZRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_1",
+          "Name": "Area",
+          "Default": 2.9097490869739158,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_1",
+          "Name": "Ellipse_Height",
+          "Default": 1.5807999999999998,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_1",
+          "Name": "Ellipse_Width",
+          "Default": 2.343451287272727,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_1",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "XLocPercent",
+          "Default": 0.375,
+          "Range": [
+            0.229815,
+            0.541626
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "XRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "YLocPercent",
+          "Default": 0.0,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "YRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "ZLocPercent",
+          "Default": 0.002403256140350877,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "ZRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_2",
+          "Name": "Area",
+          "Default": 3.9752090048485007,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_2",
+          "Name": "Ellipse_Height",
+          "Default": 1.7379845600000001,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_2",
+          "Name": "Ellipse_Width",
+          "Default": 2.912,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_2",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_3",
+          "Name": "XLocPercent",
+          "Default": 0.541626,
+          "Range": [
+            0.375,
+            0.717104
+          ]
+        },
+        {
+          "GroupName": "XSec_3",
+          "Name": "XRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_3",
+          "Name": "YLocPercent",
+          "Default": 0.0,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_3",
+          "Name": "YRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_3",
+          "Name": "ZLocPercent",
+          "Default": 0.0,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_3",
+          "Name": "ZRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_3",
+          "Name": "Area",
+          "Default": 4.330546670542159,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_3",
+          "Name": "Ellipse_Height",
+          "Default": 1.7888,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_3",
+          "Name": "Ellipse_Width",
+          "Default": 3.082181818181818,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_3",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_4",
+          "Name": "XLocPercent",
+          "Default": 0.717104,
+          "Range": [
+            0.541626,
+            0.874596804347826
+          ]
+        },
+        {
+          "GroupName": "XSec_4",
+          "Name": "XRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_4",
+          "Name": "YLocPercent",
+          "Default": 0.0,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_4",
+          "Name": "YRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_4",
+          "Name": "ZLocPercent",
+          "Default": -0.0037569684210525534,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_4",
+          "Name": "ZRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_4",
+          "Name": "Area",
+          "Default": 3.043279624548288,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_4",
+          "Name": "Ellipse_Height",
+          "Default": 1.3305395999999998,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_4",
+          "Name": "Ellipse_Width",
+          "Default": 2.912,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_4",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_5",
+          "Name": "XLocPercent",
+          "Default": 0.874596804347826,
+          "Range": [
+            0.717104,
+            0.950803
+          ]
+        },
+        {
+          "GroupName": "XSec_5",
+          "Name": "XRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_5",
+          "Name": "YLocPercent",
+          "Default": 0.0,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_5",
+          "Name": "YRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_5",
+          "Name": "ZLocPercent",
+          "Default": -0.0034392000000000003,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_5",
+          "Name": "ZRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_5",
+          "Name": "Area",
+          "Default": 1.9300676298093418,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_5",
+          "Name": "Ellipse_Height",
+          "Default": 0.8986546960095867,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_5",
+          "Name": "Ellipse_Width",
+          "Default": 2.734368208,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_5",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_6",
+          "Name": "XLocPercent",
+          "Default": 0.950803,
+          "Range": [
+            0.874596804347826,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_6",
+          "Name": "XRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_6",
+          "Name": "YLocPercent",
+          "Default": 0.0,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_6",
+          "Name": "YRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_6",
+          "Name": "ZLocPercent",
+          "Default": -0.002384687719298246,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_6",
+          "Name": "ZRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_6",
+          "Name": "Area",
+          "Default": 1.01361548359641,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_6",
+          "Name": "Ellipse_Height",
+          "Default": 0.5738343595636364,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_6",
+          "Name": "Ellipse_Width",
+          "Default": 2.2488682036363636,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_6",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_7",
+          "Name": "XLocPercent",
+          "Default": 1.0,
+          "Range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_7",
+          "Name": "XRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_7",
+          "Name": "YLocPercent",
+          "Default": 0.0,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_7",
+          "Name": "YRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_7",
+          "Name": "ZLocPercent",
+          "Default": 0.0006698105263157895,
+          "Range": [
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "GroupName": "XSec_7",
+          "Name": "ZRotate",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_7",
+          "Name": "Area",
+          "Default": 0.0,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_7",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "VerticalTail",
+      "Type": "Wing",
+      "Params": [
+        {
+          "GroupName": "Shape",
+          "Name": "Tess_U",
+          "Default": 11.0,
+          "Range": [
+            2.0,
+            1000.0
+          ]
+        },
+        {
+          "GroupName": "Shape",
+          "Name": "Tess_W",
+          "Default": 21.0,
+          "Range": [
+            2.0,
+            1001.0
+          ]
+        },
+        {
+          "GroupName": "WingGeom",
+          "Name": "TotalArea",
+          "Default": 9.78395574170757,
+          "Range": [
+            1e-10,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "WingGeom",
+          "Name": "TotalSpan",
+          "Default": 6.594224831999998,
+          "Range": [
+            1e-06,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "X_Rel_Location",
+          "Default": 11.938,
+          "Range": [
+            -1000000000000.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "X_Rel_Rotation",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Y_Rel_Location",
+          "Default": 0.790379616,
+          "Range": [
+            -1000000000000.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Y_Rel_Rotation",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Z_Rel_Location",
+          "Default": 0.0,
+          "Range": [
+            -1000000000000.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XForm",
+          "Name": "Z_Rel_Rotation",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Area",
+          "Default": 4.6383584947192835,
+          "Range": [
+            1e-10,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Dihedral",
+          "Default": 30.95239,
+          "Range": [
+            -360.0,
+            360.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Root_Chord",
+          "Default": 2.149030208,
+          "Range": [
+            0.0,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Span",
+          "Default": 2.9846238239999994,
+          "Range": [
+            1e-10,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Sweep",
+          "Default": 32.380876,
+          "Range": [
+            -89.0,
+            89.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Tip_Chord",
+          "Default": 0.959139376,
+          "Range": [
+            0.0,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_1",
+          "Name": "Twist",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_1",
+          "Name": "Area",
+          "Default": 0.0499610065624366,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_1",
+          "Name": "Chord",
+          "Default": 0.959139376,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_1",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Area",
+          "Default": 0.2536193761345021,
+          "Range": [
+            1e-10,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Dihedral",
+          "Default": 30.95239,
+          "Range": [
+            -360.0,
+            360.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Root_Chord",
+          "Default": 0.9591393759999999,
+          "Range": [
+            0.0,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Span",
+          "Default": 0.31248859199999995,
+          "Range": [
+            1e-10,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Sweep",
+          "Default": 41.666633,
+          "Range": [
+            -89.0,
+            89.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Tip_Chord",
+          "Default": 0.6640838880000001,
+          "Range": [
+            0.0,
+            1000000.0
+          ]
+        },
+        {
+          "GroupName": "XSec_2",
+          "Name": "Twist",
+          "Default": 0.0,
+          "Range": [
+            -180.0,
+            180.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_2",
+          "Name": "Area",
+          "Default": 0.023950447106651323,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_2",
+          "Name": "Chord",
+          "Default": 0.6640838880000001,
+          "Range": [
+            0.0,
+            1000000000000.0
+          ]
+        },
+        {
+          "GroupName": "XSecCurve_2",
+          "Name": "Scale",
+          "Default": 1.0,
+          "Range": [
+            1e-12,
+            1000000000000.0
+          ]
+        }
+      ]
+    }
+  ]
+}

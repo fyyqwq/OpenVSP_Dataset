@@ -1,0 +1,37 @@
+{
+  "AircraftName": "000061",
+  "Fuselage": [
+    {
+      "Length": 42.0,
+      "MaxWidth": 5.79517,
+      "MaxHeight": 5.78868
+    }
+  ],
+  "MainWing": [
+    {
+      "Span": 64.8,
+      "Area": 527.328,
+      "RootChord": 18.4,
+      "TipChord": 4.64,
+      "Sweep": 56.0
+    }
+  ],
+  "VerticalTail": [
+    {
+      "Span": 5.6,
+      "Area": 11.2,
+      "RootChord": 2.4,
+      "TipChord": 1.6,
+      "Sweep": -30.0
+    }
+  ],
+  "HorizontalTail": [
+    {
+      "Span": 24.0,
+      "Area": 144.0,
+      "RootChord": 8.0,
+      "TipChord": 4.0,
+      "Sweep": 17.5
+    }
+  ]
+}

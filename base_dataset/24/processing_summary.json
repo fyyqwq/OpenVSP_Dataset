@@ -1,0 +1,103 @@
+{
+  "model_name": "24",
+  "processing_time": 0,
+  "processing_date": "2025-07-15 09:10:45",
+  "steps_completed": [
+    "vsp_file_saving",
+    "parameter_extraction",
+    "data_export",
+    "svg_processing",
+    "multiview_images"
+  ],
+  "steps_failed": [
+    "llm_classification"
+  ],
+  "output_directory": "output\\24",
+  "files_generated": {
+    "total_files": 6,
+    "total_size": 7538044,
+    "directories": {
+      "json": {
+        "file_count": 2,
+        "total_size": 29079,
+        "files": [
+          "000024_full_parameters.json",
+          "000024_info_parameters.json"
+        ]
+      },
+      "mesh": {
+        "file_count": 3,
+        "total_size": 7392668,
+        "files": [
+          "000024_mesh.obj",
+          "000024_mesh.stl",
+          "000024_mesh.vtk"
+        ]
+      },
+      "pointcloud": {
+        "file_count": 1,
+        "total_size": 116297,
+        "files": [
+          "000024_pc.csv"
+        ]
+      }
+    }
+  },
+  "configuration": {
+    "processing_config": {
+      "num_samples": 100,
+      "start_index": 1,
+      "max_retries": 3,
+      "timeout_seconds": 300,
+      "vsp_update_model": true,
+      "vsp_clear_model": true,
+      "image_resolution": [
+        1920,
+        1080
+      ],
+      "image_quality": 95,
+      "svg_margin": 50,
+      "mesh_min_edge_len": 0.1,
+      "mesh_max_edge_len": 0.5,
+      "mesh_max_gap": 0.05,
+      "extract_parameters": true,
+      "export_mesh": true,
+      "export_svg": true,
+      "export_images": false,
+      "run_aero_analysis": true,
+      "llm_labeling": false
+    },
+    "llm_config": {
+      "model_name": "claude-opus-4-20250514-thinking",
+      "max_tokens": 1000,
+      "temperature": 0.1
+    }
+  },
+  "parameter_extraction": {},
+  "data_export": {
+    "model_name": "24",
+    "mesh_files": [],
+    "pointcloud_files": [],
+    "image_files": [],
+    "total_files": 0
+  },
+  "svg_processing": {
+    "processed": 1,
+    "failed": 0,
+    "total": 1
+  },
+  "multiview_images": {
+    "success": true,
+    "generated_images": [
+      "output\\24\\png\\000024_front_view.png",
+      "output\\24\\png\\000024_back_view.png",
+      "output\\24\\png\\000024_right_view.png",
+      "output\\24\\png\\000024_left_view.png",
+      "output\\24\\png\\000024_top_view.png",
+      "output\\24\\png\\000024_bottom_view.png",
+      "output\\24\\png\\000024_right_up_view.png",
+      "output\\24\\png\\000024_left_up_view.png"
+    ],
+    "total_images": 8
+  }
+}

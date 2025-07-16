@@ -1,0 +1,127 @@
+{
+  "model_name": "17",
+  "processing_time": 0,
+  "processing_date": "2025-07-15 09:06:17",
+  "steps_completed": [
+    "vsp_file_saving",
+    "parameter_extraction",
+    "data_export",
+    "svg_processing",
+    "multiview_images",
+    "llm_classification"
+  ],
+  "steps_failed": [],
+  "output_directory": "output\\17",
+  "files_generated": {
+    "total_files": 7,
+    "total_size": 2978669,
+    "directories": {
+      "json": {
+        "file_count": 2,
+        "total_size": 34353,
+        "files": [
+          "000017_full_parameters.json",
+          "000017_info_parameters.json"
+        ]
+      },
+      "mesh": {
+        "file_count": 3,
+        "total_size": 2844387,
+        "files": [
+          "000017_mesh.obj",
+          "000017_mesh.stl",
+          "000017_mesh.vtk"
+        ]
+      },
+      "pointcloud": {
+        "file_count": 1,
+        "total_size": 99475,
+        "files": [
+          "000017_pc.csv"
+        ]
+      },
+      "labels": {
+        "file_count": 1,
+        "total_size": 454,
+        "files": [
+          "aircraft_labels.json"
+        ]
+      }
+    }
+  },
+  "configuration": {
+    "processing_config": {
+      "num_samples": 100,
+      "start_index": 1,
+      "max_retries": 3,
+      "timeout_seconds": 300,
+      "vsp_update_model": true,
+      "vsp_clear_model": true,
+      "image_resolution": [
+        1920,
+        1080
+      ],
+      "image_quality": 95,
+      "svg_margin": 50,
+      "mesh_min_edge_len": 0.1,
+      "mesh_max_edge_len": 0.5,
+      "mesh_max_gap": 0.05,
+      "extract_parameters": true,
+      "export_mesh": true,
+      "export_svg": true,
+      "export_images": false,
+      "run_aero_analysis": true,
+      "llm_labeling": false
+    },
+    "llm_config": {
+      "model_name": "claude-opus-4-20250514-thinking",
+      "max_tokens": 1000,
+      "temperature": 0.1
+    }
+  },
+  "parameter_extraction": {},
+  "data_export": {
+    "model_name": "17",
+    "mesh_files": [],
+    "pointcloud_files": [],
+    "image_files": [],
+    "total_files": 0
+  },
+  "svg_processing": {
+    "processed": 1,
+    "failed": 0,
+    "total": 1
+  },
+  "multiview_images": {
+    "success": true,
+    "generated_images": [
+      "output\\17\\png\\000017_front_view.png",
+      "output\\17\\png\\000017_back_view.png",
+      "output\\17\\png\\000017_right_view.png",
+      "output\\17\\png\\000017_left_view.png",
+      "output\\17\\png\\000017_top_view.png",
+      "output\\17\\png\\000017_bottom_view.png",
+      "output\\17\\png\\000017_right_up_view.png",
+      "output\\17\\png\\000017_left_up_view.png"
+    ],
+    "total_images": 8
+  },
+  "aircraft_classification": {
+    "总体气动布局": "常规布局",
+    "动力系统": {
+      "发动机数量": "无动力/滑翔机",
+      "发动机布局": "无"
+    },
+    "机翼特征": {
+      "机翼平面形状与后掠": "平直翼",
+      "机翼垂向位置": "上单翼",
+      "翼尖装置": "无翼尖装置",
+      "机翼Kink": "否",
+      "翼身融合": "否"
+    },
+    "尾翼特征": {
+      "垂尾数量": "单垂尾",
+      "尾翼构型": "常规尾翼"
+    }
+  }
+}
